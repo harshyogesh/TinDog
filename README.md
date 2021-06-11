@@ -1,2 +1,1 @@
-# TinDog
-Get a solumate for your dog !!
+TinDog Starting Files
