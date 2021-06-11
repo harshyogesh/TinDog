@@ -1,0 +1,195 @@
+/* HTML Elements section */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Montserrat-bold', sans-serif;
+
+}
+
+  p{
+    color: #8f8f8f;
+  }
+
+/* HTML Elements section */
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+
+
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Headings */
+
+/* Sections section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+   background-color: #fff;
+}
+
+
+
+/* Title section */
+
+#title{
+  margin: auto;
+  padding: auto;
+  text-align: left;
+}
+
+#title .container-fluid{
+padding: 3% 15% 7%;
+
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+}
+
+.nav-link{
+  margin: 18px;
+}
+
+/* Title section */
+
+/* phone image rotation */
+.phone-img{
+  transform: rotate(25deg);
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+/* phone image rotation */
+
+/* Features section */
+
+
+#features{
+
+  position: relative;
+
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight:bolder;
+}
+
+/* Feature icons */
+i.feature-icon{
+ display: block;
+ font-size: xxx-large;
+ color: #ef8172;
+ }
+
+i.feature-icon:hover{
+  color: #ff4c68;
+}
+/* Feature icons */
+
+
+/* Testtmonial section */
+#testimonials{
+  background-color:#ef8172;
+  color: #fff;
+    }
+
+  .testimonial-text{
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+
+
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    padding:20px;
+  }
+
+/* Press section */
+#press{
+  /* text-align: center; */
+  background-color: #ef8172;
+  padding-bottom: 25px;
+  }
+
+.logo{
+width: 15%;
+margin: 20px 20px 50px;
+
+}
+   /* Pricing section */
+
+#pricing{
+    padding: 100px;
+
+}
+
+.pricing-title{
+font-size: 1.5rem;
+font-weight: bolder;
+
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding:3% 2%;
+
+}
+
+
+@media(max-width: 991px) {
+#title{
+  text-align: center;
+}
+
+.phone-img{
+   position: static;
+   transform: rotate(0);
+
+
+ }
+}
+
+
+
+
+.btn-apple{
+margin-right: 3%;
+}
+
+
+/* Footer section */
+
+i.soc-btn{
+  padding:2% 1%;
+}
